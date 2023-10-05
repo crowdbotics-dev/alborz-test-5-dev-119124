@@ -10,7 +10,7 @@ const WelcomeScreen = () => {
           <Text style={styles.text}>
             Let's build something amazing together!
           </Text>
-        </View>
+        <Text style={styles.cBjfAlMM}>Lorem ipsum…</Text></View>
         <Text style={styles.footer}>Made with ❤️ by Crowdbotics</Text>
       </ScrollView>
     </SafeAreaView>;
@@ -49,6 +49,13 @@ const styles = StyleSheet.create({
     color: "#828AB0",
     fontWeight: 700,
     marginBottom: 20
+  },
+  cBjfAlMM: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
   }
 });
 export default WelcomeScreen;
